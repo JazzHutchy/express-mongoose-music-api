@@ -1,0 +1,29 @@
+GET http://localhost:7000/artists/
+
+###
+
+GET http://localhost:7000/artists/5a1766f1e007cb45c8a48b9b/
+
+###
+
+GET http://localhost:7000/artists/5a1d66f1d007db4cc8a48b9c/
+
+###
+POST http://localhost:7000/artists/
+Content-Type: application/json
+
+{
+  "name": "Spice Girls"
+}
+
+###
+DELETE http://localhost:7000/artists/5a17694e39405946a72b01ad
+
+###
+
+PATCH http://localhost:7000/artists/5a1769f27e913746f3ca07a7
+Content-Type: application/json
+
+{
+  "name": "The Alex Farries"
+}
